@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/header';
+import Sellos from './components/dropdown-sellos';
+import Zona from './components/dropdown-zona';
+import Categorias from './components/dropdown-categorias';
 
 function App() {
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+
+    <div className="row v-align">
+      <div className="pr">
+      <Sellos/>
+      </div>
+
+      <div className="pr">
+      <Zona/>
+      </div>
+
+      <div className="pr">
+      <Categorias/>
+      </div>
+    </div>
+      
     </div>
   );
 }
 
-export default App;
+export default App; 
