@@ -7,7 +7,7 @@ import { DropdownButton, Dropdown } from 'react-bootstrap';
 class Zona extends Component{
     render(){
         return(
-            <DropdownButton className="top" variant="info" id="dropdown-basic-button" title="Zona">
+            <DropdownButton variant="info" id="dropdown-basic-button" title="Zona">
               <Dropdown.Item>Polanco</Dropdown.Item>
               <Dropdown.Item>Interlomas</Dropdown.Item>
               <Dropdown.Item>Teca</Dropdown.Item>

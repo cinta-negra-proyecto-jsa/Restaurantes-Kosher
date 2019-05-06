@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-.spacing{
+.clr{
   color:white;
 }
 
@@ -11,8 +11,8 @@ nav li{
   padding:0 25px;
 }
 
-.top{
-  margin-top: 30px;
+.m-bottom{
+  margin-bottom: 50px;
 }
 
 .v-align{
@@ -26,4 +26,13 @@ nav li{
 
 .thumbnail-image{
   height: 50px;
+}
+
+.login-form{
+  border:thin black solid;
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  height: 100%;
 }
