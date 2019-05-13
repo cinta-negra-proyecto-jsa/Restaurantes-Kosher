@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
+import {Link } from "react-router-dom";
 import { Form, Button } from "react-bootstrap";
 
 import Header from '../components/header';
@@ -32,7 +33,12 @@ class SignIn extends Component{
                 Iniciar sesion
               </Button>
             </Form>
+            <div className="spacing">
+              <Link to="./sign-up">Crear cuenta </Link>
+              <span> | </span>
+              <Link>Olvide mi contraseña</Link>
             </div>
+          </div>
 
             </div>
         )

@@ -13,13 +13,13 @@ class Header extends Component{
             <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
               <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li className="nav-item active">
-                  <NavLink className="nav-link" to="/">Home<span className="sr-only">(current)</span></NavLink>
+                <NavLink className="nav-link spacing" to="/">Home</NavLink>
                 </li>
                 <li className="nav-item spacing">
-                <NavLink to="./sign-in"> Iniciar sesion </NavLink>
+                <NavLink className="nav-link" to="./sign-in"> Iniciar sesion </NavLink>
                 </li>
                 <li className="nav-item spacing">
-                <NavLink to="#"> Mas info </NavLink>
+                <NavLink className="nav-link" to="#"> Mas info </NavLink>
                 </li>
               </ul>
             </div>
