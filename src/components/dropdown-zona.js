@@ -11,6 +11,7 @@ class Zona extends Component{
               <Dropdown.Item>Polanco</Dropdown.Item>
               <Dropdown.Item>Interlomas</Dropdown.Item>
               <Dropdown.Item>Teca</Dropdown.Item>
+              <Dropdown.Item>Bosques</Dropdown.Item>
             </DropdownButton>
         )
     }
