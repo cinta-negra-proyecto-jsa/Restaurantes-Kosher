@@ -11,6 +11,10 @@
   margin-top: 10px;
 }
 
+.spacing1{
+  margin-top: 40px;
+}
+
 nav li{
   padding:0 25px;
 }
@@ -48,4 +52,21 @@ nav li{
   padding: 15px;
   margin: auto;
   height: 100%;
+}
+
+
+.f-form{
+  border:thin black solid;
+  width: 100%;
+  max-width: 700px;
+  padding: 15px;
+  margin: auto;
+  height: 100%;
+}
+
+.img-size{
+  object-fit: contain;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  height: 200px;
 }

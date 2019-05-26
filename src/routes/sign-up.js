@@ -66,15 +66,8 @@ class SignUp extends Component {
             </Form.Group>
           </Form.Row>
           <Form.Row>
-            <Form.Group as={Col} md="6" controlId="validationCustom03">
+            <Form.Group as={Col} md="12" controlId="validationCustom03">
               <Form.Label>Contraseña</Form.Label>
-              <Form.Control type="password" placeholder="contraseña" required />
-              <Form.Control.Feedback type="invalid">
-                Please provide a valid password.
-              </Form.Control.Feedback>
-            </Form.Group>
-            <Form.Group as={Col} md="6" controlId="validationCustom03">
-              <Form.Label>Confirmar contraseña</Form.Label>
               <Form.Control type="password" placeholder="contraseña" required />
               <Form.Control.Feedback type="invalid">
                 Please provide a valid password.

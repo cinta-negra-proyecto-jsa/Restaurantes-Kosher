@@ -5,6 +5,7 @@ import Header from '../components/header';
 import Sellos from '../components/dropdown-sellos';
 import Zona from '../components/dropdown-zona';
 import Categorias from '../components/dropdown-categorias';
+import Capturas from '../components/capturas';
 
 class Home extends Component {
     render(){
@@ -25,6 +26,10 @@ class Home extends Component {
             <Categorias/>
             </div>
           </div>
+
+          <Capturas 
+          restaurante="hola como estas"
+          />
             
           </div>
         )
